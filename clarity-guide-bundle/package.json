@@ -1,0 +1,17 @@
+{
+  "name": "clarity-guide",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "prompts",
+    "tools"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
